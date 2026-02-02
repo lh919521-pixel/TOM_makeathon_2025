@@ -268,7 +268,7 @@ const defaultPages: PageDef[] = [
     slug: "/p/feelings",
     title: "Feelings" ,
     bgColor: COLOR_DEFAULT,
-    grid: { cols: 4, rows: 2 },
+    grid: { cols: 4, rows: 4},
     buttons: [
       { id: "feelings_sick", type: "link", label: "Sick", linkPageId :"sick" },
       { id: "feelings_hot", type: "audio", label: "Hot" },
@@ -277,7 +277,15 @@ const defaultPages: PageDef[] = [
       { id: "feelings_angry", type: "audio", label: "Angry" },
       { id: "feelings_happy", type: "audio", label: "Happy" },
       { id: "feelings_bored", type: "audio", label: "Bored" },
-      { id: "feelings_sad", type: "audio", label: "Sad" }
+      { id: "feelings_sad", type: "audio", label: "Sad" },
+      { id: "feelings_okay", type: "audio", label: "Okay" },
+      //{ id: "feelings_not_okay", type: "audio", label: "Not Okay" },//
+      { id: "feelings_embarrassed", type: "audio", label: "Embarrassed" },
+      { id: "feelings_upset", type: "audio", label: "Upset" },
+      { id: "feelings_worried", type: "audio", label: "Worried" },
+      { id: "feelings_frustrated", type: "audio", label: "Frustrated" },
+      { id: "feelings_i_need_a_break", type: "audio", label: "I Need A  Break" },
+      { id: "feelings_calm", type: "audio", label: "Calm" },
     ]
   },
   {

@@ -105,6 +105,14 @@ import HurtImg from "../assets/hurt_new.png";
 import AngryImg from "../assets/angry_new.png";
 import BoredImg from "../assets/bored.jpg";
 import SadImg from "../assets/sad.jpg";
+import OkayImg from "../assets/okay.png";
+//import NotOkayImg from "../assets/Not_Okay.png";/// might mess things up 
+import EmbarrassedImg from "../assets/embarrassed.png";
+import UpsetImg from "../assets/upset.png";
+import WorriedImg from "../assets/worried.png";
+import FrustratedImg from "../assets/frustrated.png";
+import INeedABreakImg from "../assets/break.png";
+import CalmImg from "../assets/calm.png";
 
 //Hurt
 import HeadImg from "../assets/head.png";
@@ -240,6 +248,14 @@ export const staticImageMap: Record<string, string> = {
   "Angry": AngryImg,
   "Bored": BoredImg,
   "Sad": SadImg,
+  "Okay" : OkayImg,
+  //"N",
+  "Embarrassed": EmbarrassedImg,
+  "Upset": UpsetImg,
+  "Worried": WorriedImg,
+  "Frustrated": FrustratedImg,
+  "I Need A Break": INeedABreakImg,
+  "Calm": CalmImg,
 
   //Hurt sub 
   "Head" : HeadImg,
