@@ -279,7 +279,7 @@ const defaultPages: PageDef[] = [
       { id: "feelings_bored", type: "audio", label: "Bored" },
       { id: "feelings_sad", type: "audio", label: "Sad" },
       { id: "feelings_okay", type: "audio", label: "Okay" },
-      //{ id: "feelings_not_okay", type: "audio", label: "Not Okay" },//
+      { id: "feelings_not_okay", type: "audio", label: "Not Okay" },//
       { id: "feelings_embarrassed", type: "audio", label: "Embarrassed" },
       { id: "feelings_upset", type: "audio", label: "Upset" },
       { id: "feelings_worried", type: "audio", label: "Worried" },

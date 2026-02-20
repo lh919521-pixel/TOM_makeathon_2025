@@ -106,7 +106,7 @@ import AngryImg from "../assets/angry_new.png";
 import BoredImg from "../assets/bored.jpg";
 import SadImg from "../assets/sad.jpg";
 import OkayImg from "../assets/okay.png";
-//import NotOkayImg from "../assets/Not_Okay.png";/// might mess things up 
+import NotOkayImg from "../assets/not_okay.png";/// might mess things up 
 import EmbarrassedImg from "../assets/embarrassed.png";
 import UpsetImg from "../assets/upset.png";
 import WorriedImg from "../assets/worried.png";
@@ -249,7 +249,7 @@ export const staticImageMap: Record<string, string> = {
   "Bored": BoredImg,
   "Sad": SadImg,
   "Okay" : OkayImg,
-  //"N",
+  "Not Okay": NotOkayImg,
   "Embarrassed": EmbarrassedImg,
   "Upset": UpsetImg,
   "Worried": WorriedImg,
