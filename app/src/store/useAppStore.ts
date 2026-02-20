@@ -268,7 +268,7 @@ const defaultPages: PageDef[] = [
     slug: "/p/feelings",
     title: "Feelings" ,
     bgColor: COLOR_DEFAULT,
-    grid: { cols: 4, rows: 3 },
+    grid: { cols: 4, rows: 4 },
     buttons: [
       { id: "feelings_sick", type: "link", label: "Sick", linkPageId :"sick" },
       { id: "feelings_hot", type: "audio", label: "Hot" },
